@@ -1,0 +1,1 @@
+xca_COCode has 122 distinct OCNs and xca_Entity_OCN_Web has 122 distinct OCNs.  If the number is different you need to investigate. Note: Lynx Mobility OCN 440F only has MBIs and has been omitted in query 

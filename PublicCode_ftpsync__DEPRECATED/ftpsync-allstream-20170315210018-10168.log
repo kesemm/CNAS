@@ -1,0 +1,194 @@
+CyberKiko FTPSync 2.9.8
+Copyright © 1996-2014 by Kristof Gajsek, http://www.cyberkiko.com. All Rights Reserved.
+This product includes software developed by Francois Piette & TeamICS (http://www.overbyte.be/)
+This product includes software developed by the OpenSSL Project for use in the OpenSSL Toolkit (http://www.openssl.org/)
+This product includes cryptographic software written by Eric Young (eay@cryptsoft.com)
+
+System: Microsoft Windows NT 6.2.9200.0, .NET 4.0.30319.36366
+User: ISERVICES\Jurassic
+Priority: Idle
+Data folder: D:\CNA\PublicCode_ftpsync\
+Command line: allstream
+Loading MTB file: D:\CNA\PublicCode_ftpsync\allstream.mtb
+
+Start: 15-Mar-2017 21:00:18
+  Syncing cnac.ca/public/data/ with D:\CNA\PublicCodeData\
+  Source connection OK!
+  Start source directory listing: 15-Mar-2017 21:00:18
+    Retrieved directory D:/CNA/PublicCodeData/
+  End source directory listing: 15-Mar-2017 21:00:18
+  Start transfer: 15-Mar-2017 21:00:18
+    Destination connection OK!
+    Destination FTP home directory: /
+    Destination FTP SSL mode: None
+    PASS 1 - files with size less than 16KB
+      Updated: /public/data/ESRDCodeStatus_NPA204.csv
+      Updated: /public/data/ESRDCodeStatus_NPA226.csv
+      Updated: /public/data/ESRDCodeStatus_NPA236.csv
+      Updated: /public/data/ESRDCodeStatus_NPA249.csv
+      Updated: /public/data/ESRDCodeStatus_NPA250.csv
+      Updated: /public/data/ESRDCodeStatus_NPA289.csv
+      Updated: /public/data/ESRDCodeStatus_NPA306.csv
+      Updated: /public/data/ESRDCodeStatus_NPA343.csv
+      Updated: /public/data/ESRDCodeStatus_NPA365.csv
+      Updated: /public/data/ESRDCodeStatus_NPA403.csv
+      Updated: /public/data/ESRDCodeStatus_NPA416.csv
+      Updated: /public/data/ESRDCodeStatus_NPA418.csv
+      Updated: /public/data/ESRDCodeStatus_NPA431.csv
+      Updated: /public/data/ESRDCodeStatus_NPA437.csv
+      Updated: /public/data/ESRDCodeStatus_NPA438.csv
+      Updated: /public/data/ESRDCodeStatus_NPA450.csv
+      Updated: /public/data/ESRDCodeStatus_NPA506.csv
+      Updated: /public/data/ESRDCodeStatus_NPA514.csv
+      Updated: /public/data/ESRDCodeStatus_NPA519.csv
+      Updated: /public/data/ESRDCodeStatus_NPA548.csv
+      Updated: /public/data/ESRDCodeStatus_NPA579.csv
+      Updated: /public/data/ESRDCodeStatus_NPA581.csv
+      Updated: /public/data/ESRDCodeStatus_NPA587.csv
+      Updated: /public/data/ESRDCodeStatus_NPA604.csv
+      Updated: /public/data/ESRDCodeStatus_NPA613.csv
+      Updated: /public/data/ESRDCodeStatus_NPA639.csv
+      Updated: /public/data/ESRDCodeStatus_NPA647.csv
+      Updated: /public/data/ESRDCodeStatus_NPA705.csv
+      Updated: /public/data/ESRDCodeStatus_NPA709.csv
+      Updated: /public/data/ESRDCodeStatus_NPA778.csv
+      Updated: /public/data/ESRDCodeStatus_NPA780.csv
+      Updated: /public/data/ESRDCodeStatus_NPA782.csv
+      Updated: /public/data/ESRDCodeStatus_NPA807.csv
+      Updated: /public/data/ESRDCodeStatus_NPA819.csv
+      Updated: /public/data/ESRDCodeStatus_NPA825.csv
+      Updated: /public/data/ESRDCodeStatus_NPA867.csv
+      Updated: /public/data/ESRDCodeStatus_NPA873.csv
+      Updated: /public/data/ESRDCodeStatus_NPA902.csv
+      Updated: /public/data/ESRDCodeStatus_NPA905.csv
+      Updated: /public/data/NonGeoCodeStatus_ALL.zip
+    PASS 2 - files with size less than 128KB
+      Updated: /public/data/COCodeStatus_NPA204.csv
+      Updated: /public/data/COCodeStatus_NPA226.csv
+      Updated: /public/data/COCodeStatus_NPA236.csv
+      Updated: /public/data/COCodeStatus_NPA249.csv
+      Updated: /public/data/COCodeStatus_NPA250.csv
+      Updated: /public/data/COCodeStatus_NPA289.csv
+      Updated: /public/data/COCodeStatus_NPA306.csv
+      Updated: /public/data/COCodeStatus_NPA343.csv
+      Updated: /public/data/COCodeStatus_NPA365.csv
+      Updated: /public/data/COCodeStatus_NPA403.csv
+      Updated: /public/data/COCodeStatus_NPA416.csv
+      Updated: /public/data/COCodeStatus_NPA418.csv
+      Updated: /public/data/COCodeStatus_NPA431.csv
+      Updated: /public/data/COCodeStatus_NPA437.csv
+      Updated: /public/data/COCodeStatus_NPA438.csv
+      Updated: /public/data/COCodeStatus_NPA450.csv
+      Updated: /public/data/COCodeStatus_NPA506.csv
+      Updated: /public/data/COCodeStatus_NPA514.csv
+      Updated: /public/data/COCodeStatus_NPA519.csv
+      Updated: /public/data/COCodeStatus_NPA548.csv
+      Updated: /public/data/COCodeStatus_NPA579.csv
+      Updated: /public/data/COCodeStatus_NPA581.csv
+      Updated: /public/data/COCodeStatus_NPA587.csv
+      Updated: /public/data/COCodeStatus_NPA604.csv
+      Updated: /public/data/COCodeStatus_NPA613.csv
+      Updated: /public/data/COCodeStatus_NPA639.csv
+      Updated: /public/data/COCodeStatus_NPA647.csv
+      Updated: /public/data/COCodeStatus_NPA705.csv
+      Updated: /public/data/COCodeStatus_NPA709.csv
+      Updated: /public/data/COCodeStatus_NPA778.csv
+      Updated: /public/data/COCodeStatus_NPA780.csv
+      Updated: /public/data/COCodeStatus_NPA782.csv
+      Updated: /public/data/COCodeStatus_NPA807.csv
+      Updated: /public/data/COCodeStatus_NPA819.csv
+      Updated: /public/data/COCodeStatus_NPA825.csv
+      Updated: /public/data/COCodeStatus_NPA867.csv
+      Updated: /public/data/COCodeStatus_NPA873.csv
+      Updated: /public/data/COCodeStatus_NPA902.csv
+      Updated: /public/data/COCodeStatus_NPA905.csv
+      Updated: /public/data/ESRDCodeStatus_ALL.zip
+      Updated: /public/data/ESRDCodeStatus_NPA204.htm
+      Updated: /public/data/ESRDCodeStatus_NPA226.htm
+      Updated: /public/data/ESRDCodeStatus_NPA236.htm
+      Updated: /public/data/ESRDCodeStatus_NPA249.htm
+      Updated: /public/data/ESRDCodeStatus_NPA250.htm
+      Updated: /public/data/ESRDCodeStatus_NPA289.htm
+      Updated: /public/data/ESRDCodeStatus_NPA306.htm
+      Updated: /public/data/ESRDCodeStatus_NPA343.htm
+      Updated: /public/data/ESRDCodeStatus_NPA365.htm
+      Updated: /public/data/ESRDCodeStatus_NPA403.htm
+      Updated: /public/data/ESRDCodeStatus_NPA416.htm
+      Updated: /public/data/ESRDCodeStatus_NPA418.htm
+      Updated: /public/data/ESRDCodeStatus_NPA431.htm
+      Updated: /public/data/ESRDCodeStatus_NPA437.htm
+      Updated: /public/data/ESRDCodeStatus_NPA438.htm
+      Updated: /public/data/ESRDCodeStatus_NPA450.htm
+      Updated: /public/data/ESRDCodeStatus_NPA506.htm
+      Updated: /public/data/ESRDCodeStatus_NPA514.htm
+      Updated: /public/data/ESRDCodeStatus_NPA519.htm
+      Updated: /public/data/ESRDCodeStatus_NPA548.htm
+      Updated: /public/data/ESRDCodeStatus_NPA579.htm
+      Updated: /public/data/ESRDCodeStatus_NPA581.htm
+      Updated: /public/data/ESRDCodeStatus_NPA587.htm
+      Updated: /public/data/ESRDCodeStatus_NPA604.htm
+      Updated: /public/data/ESRDCodeStatus_NPA613.htm
+      Updated: /public/data/ESRDCodeStatus_NPA639.htm
+      Updated: /public/data/ESRDCodeStatus_NPA647.htm
+      Updated: /public/data/ESRDCodeStatus_NPA705.htm
+      Updated: /public/data/ESRDCodeStatus_NPA709.htm
+      Updated: /public/data/ESRDCodeStatus_NPA778.htm
+      Updated: /public/data/ESRDCodeStatus_NPA780.htm
+      Updated: /public/data/ESRDCodeStatus_NPA782.htm
+      Updated: /public/data/ESRDCodeStatus_NPA807.htm
+      Updated: /public/data/ESRDCodeStatus_NPA819.htm
+      Updated: /public/data/ESRDCodeStatus_NPA825.htm
+      Updated: /public/data/ESRDCodeStatus_NPA867.htm
+      Updated: /public/data/ESRDCodeStatus_NPA873.htm
+      Updated: /public/data/ESRDCodeStatus_NPA902.htm
+      Updated: /public/data/ESRDCodeStatus_NPA905.htm
+      Updated: /public/data/NonGeoCodeStatus_NPA622.csv
+    PASS 3 - large files
+      Updated: /public/data/COCodeStatus_ALL.zip
+      Updated: /public/data/COCodeStatus_NPA204.htm
+      Updated: /public/data/COCodeStatus_NPA226.htm
+      Updated: /public/data/COCodeStatus_NPA236.htm
+      Updated: /public/data/COCodeStatus_NPA249.htm
+      Updated: /public/data/COCodeStatus_NPA250.htm
+      Updated: /public/data/COCodeStatus_NPA289.htm
+      Updated: /public/data/COCodeStatus_NPA306.htm
+      Updated: /public/data/COCodeStatus_NPA343.htm
+      Updated: /public/data/COCodeStatus_NPA365.htm
+      Updated: /public/data/COCodeStatus_NPA403.htm
+      Updated: /public/data/COCodeStatus_NPA416.htm
+      Updated: /public/data/COCodeStatus_NPA418.htm
+      Updated: /public/data/COCodeStatus_NPA431.htm
+      Updated: /public/data/COCodeStatus_NPA437.htm
+      Updated: /public/data/COCodeStatus_NPA438.htm
+      Updated: /public/data/COCodeStatus_NPA450.htm
+      Updated: /public/data/COCodeStatus_NPA506.htm
+      Updated: /public/data/COCodeStatus_NPA514.htm
+      Updated: /public/data/COCodeStatus_NPA519.htm
+      Updated: /public/data/COCodeStatus_NPA548.htm
+      Updated: /public/data/COCodeStatus_NPA579.htm
+      Updated: /public/data/COCodeStatus_NPA581.htm
+      Updated: /public/data/COCodeStatus_NPA587.htm
+      Updated: /public/data/COCodeStatus_NPA604.htm
+      Updated: /public/data/COCodeStatus_NPA613.htm
+      Updated: /public/data/COCodeStatus_NPA639.htm
+      Updated: /public/data/COCodeStatus_NPA647.htm
+      Updated: /public/data/COCodeStatus_NPA705.htm
+      Updated: /public/data/COCodeStatus_NPA709.htm
+      Updated: /public/data/COCodeStatus_NPA778.htm
+      Updated: /public/data/COCodeStatus_NPA780.htm
+      Updated: /public/data/COCodeStatus_NPA782.htm
+      Updated: /public/data/COCodeStatus_NPA807.htm
+      Updated: /public/data/COCodeStatus_NPA819.htm
+      Updated: /public/data/COCodeStatus_NPA825.htm
+      Updated: /public/data/COCodeStatus_NPA867.htm
+      Updated: /public/data/COCodeStatus_NPA873.htm
+      Updated: /public/data/COCodeStatus_NPA902.htm
+      Updated: /public/data/COCodeStatus_NPA905.htm
+      Updated: /public/data/NonGeoCodeStatus_NPA622.htm
+  End transfer: 15-Mar-2017 21:01:00
+  Start unused file deletion: 15-Mar-2017 21:01:00
+  End unused file deletion: 15-Mar-2017 21:01:00
+End: 15-Mar-2017 21:01:00
+CleanUp started...
+Saving MTB file: D:\CNA\PublicCode_ftpsync\allstream.mtb
+Exit code: 0

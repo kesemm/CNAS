@@ -1,0 +1,15 @@
+****************************************************************************************
+* CVS File:      $RCSfile: Read-Me.txt,v $
+* Commit Date:   $Date: 2017/07/31 15:46:22 $ (UTC)
+* Committed by:  $Author: walshkel $
+* CVS Revision:  $Revision: 1.1 $
+* Checkout Tag:  $Name:  $ (Version/Build)
+**************************************************************************************** 
+
+When a new NPA is added the following files will also need to be updated:
+
+MBI_Full_NPA_NXX_Part1.asp
+MBI_Full_NPA_RC_Select_RC.asp
+MBI_Partial_NPA_NXX_Part1.asp
+xca_Part1app-Pre-Post.asp
+xca_Part1app.asp

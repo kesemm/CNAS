@@ -1,0 +1,1 @@
+blat "D:\CNA\internal\TelusPart4_ProcessErrors.txt" -subject "Telus Part 4 - Processing Errors" -attach "D:\CNA\internal\TelusPart4_ProcessErrors.csv" -to "browng@saiccanada.com,walshkel@saiccanada.com" -mailfrom "database@saiccanada.com" -from "database@saiccanada.com" -replyto "browng@saiccanada.com" -u "admin" -pw "&Keep@Bay" -server "192.168.10.151"

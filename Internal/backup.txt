@@ -1,0 +1,3 @@
+The database (i.e. CNAS) has been successfully replicated to the backup site.
+
+Database machine

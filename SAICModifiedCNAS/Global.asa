@@ -1,0 +1,41 @@
+<SCRIPT LANGUAGE='VBScript' RUNAT='Server'>
+Sub Session_OnStart
+Session.Timeout=40
+End Sub
+
+Sub Session_OnEnd
+Session.Abandon
+End Sub
+</SCRIPT>
+<SCRIPT LANGUAGE=VBScript RUNAT=Server>
+Sub Application_OnStart
+		'Application("cnasadmin_ConnectionString") = "DSN=cnasadmin;SERVER=10.10.10.10;UID=admin;APP=Microsoft Development Environment;WSID=CNAS.DOMIAN.CA;DATABASE=XCA_DB;QueryLogFile=Yes"
+		Application("cnasadmin_ConnectionString") = "DSN=cnasadmin;SERVER=cnac-db.database.windows.net;UID=admin;APP=Microsoft Development Environment;WSID=CNAS.DOMIAN.CA;DATABASE=XCA_DB1;QueryLogFile=Yes"
+		Application("cnasadmin_ConnectionTimeout") = 60
+		Application("cnasadmin_CommandTimeout") = 60
+		Application("cnasadmin_CursorLocation") = 3
+		Application("cnasadmin_RuntimeUserName") = "SysAdmin"
+		Application("cnasadmin_RuntimePassword") = "DbAccess460"
+
+		'Application("cnaslogon_ConnectionString") = "DSN=cnaslogon;SERVER=10.10.10.10;APP=Microsoft Development Environment;WSID=CNAS.DOMIAN.CA;DATABASE=XCA_DB"
+		Application("cnaslogon_ConnectionString") = "DSN=cnaslogon;SERVER=cnac-db.database.windows.net;APP=Microsoft Development Environment;WSID=CNAS.DOMIAN.CA;DATABASE=XCA_DB1"
+		Application("cnaslogon_ConnectionTimeout") = 60
+		Application("cnaslogon_CommandTimeout") = 60
+		Application("cnaslogon_CursorLocation") = 3
+		'Application("cnaslogon_RuntimeUserName") = "logon"
+		'Application("cnaslogon_RuntimePassword") = "cnaslogon"
+		Application("cnaslogon_RuntimeUserName") = "SysAdmin"
+		Application("cnaslogon_RuntimePassword") = "DbAccess460"
+
+		'Application("cnasapp_ConnectionString") = "DSN=cnasapp;SERVER=10.10.10.10;UID=applicant;APP=Microsoft Development Environment;WSID=CNAS.DOMIAN.CA;DATABASE=XCA_DB;OemToAnsi=Yes;TranslationDLL=Yes"
+		Application("cnasapp_ConnectionString") = "DSN=cnasapp;SERVER=cnac-db.database.windows.net;UID=applicant;APP=Microsoft Development Environment;WSID=CNAS.DOMIAN.CA;DATABASE=XCA_DB1;OemToAnsi=Yes;TranslationDLL=Yes"
+		Application("cnasapp_ConnectionTimeout") = 60
+		Application("cnasapp_CommandTimeout") = 60
+		Application("cnasapp_CursorLocation") = 3
+		'Application("cnasapp_RuntimeUserName") = "applicant"
+		'Application("cnasapp_RuntimePassword") = "cnasapp"
+		Application("cnasapp_RuntimeUserName") = "SysAdmin"
+		Application("cnasapp_RuntimePassword") = "DbAccess460"
+
+End Sub
+</SCRIPT>

@@ -1,0 +1,1 @@
+blat "D:\CNA\internal\NPA519.txt" -subject "NPA 519 Check" -to "browng@saiccanada.com" -mailfrom "database@saiccanada.com" -from "database@saiccanada.com" -replyto "browng@saiccanada.com" -u "admin" -pw "&Keep@Bay" -server "192.168.10.151"

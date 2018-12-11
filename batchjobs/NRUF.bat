@@ -1,0 +1,1 @@
+blat "D:\CNA\internal\NRUF.txt" -subject "Send NRUF Files on March 25 2010" -to "pilleyg@saiccanada.com,cleggf@saiccanada.com" -cc "browng@saiccanada.com,lessardn@saiccanada.com" -mailfrom "database@saiccanada.com" -from "database@saiccanada.com" -replyto "browng@saiccanada.com" -u "admin" -pw "&Keep@Bay" -server "192.168.10.151"

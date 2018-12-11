@@ -1,0 +1,5 @@
+Table Check
+[LERG1DATE]  2018-10-15 04:42  Mondays  
+[LERG6DATE]  2018-10-15 04:39  Weekdays  
+[LERG7DATE]  2018-10-15 04:30  Mondays  
+[LERG12DATE]  2018-10-15 04:28  Mondays  

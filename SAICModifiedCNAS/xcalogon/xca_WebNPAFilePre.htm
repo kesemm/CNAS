@@ -1,0 +1,165 @@
+<html>
+<head>
+<meta NAME="GENERATOR" Content="Microsoft Visual Studio 6.0">
+<title></title>
+<script ID="clientEventHandlersJS" LANGUAGE="javascript">
+<!--
+
+function txtNPAAvl_onchange() {
+//document.form1.txtNPAAvl.value = ""
+}
+
+function txtNPAUtil_onchange() {
+//document.form1.txtNPAUtil.value = ""
+}
+
+function form1_Validate() {
+var formObj = document.form1
+/*
+	document.write("valid");
+	if (form1.txtNPAAvl.value != "") { 
+		if (isNaN(txtNPAAvl.value)){ 
+			alert("The Center NPA field is not a number. Please type in a 3 digit value and submit again");
+            formObj.txtNPAAvl.focus();
+            return false;   
+		}
+	 /*  if ((formObj.txtNPAAvl.value <200 || formObj.txtNPAAvl.value>999)){
+					alert("You must enter a value between 200-999 in the Center NPA field. Please retype and submit again");
+					formObj.txtNPAAvl.focus();
+                return false;
+       }         
+     }          //xxxx
+      if (formObj.txtNPAUtil.value != "") { //npa nxx valid 
+		if (isNaN(formObj.txtNPAUtil.value)){ 
+			alert("The Center NPA field is not a number. Please type in a 3 digit value and submit again");
+            formObj.txtNPAUtil.focus();
+            return false;   
+		}
+	    if ((formObj.txtNPAUtil.value <200 || formObj.txtNPAUtil.value>999)){
+					alert("You must enter a value between 200-999 in the Center NPA field. Please retype and submit again");
+					formObj.txtNPAUtil.focus();
+               return false;          //dddddd
+		}            
+	   }*/
+}
+
+
+
+function btnGenNPAFilesMenu_onclick() {
+document.location.replace("xca_WebNPAFileMenu.htm");
+}
+
+//-->
+
+</SCRIPT>
+
+
+
+<%
+txtNPAAvl=Request.Form("NPA")
+session("WebFileAvlNPA")=txtNPAAvl
+
+txtNPAUtil=Request.Form("NPA")
+session("WebFileUtilNPA")=txtNPAUtil
+%>
+
+
+
+</head>
+<body bgColor="#d7c7a4" bgProperties="fixed" text="black">
+<form action="xca_RptWebNPAFile22.asp" method="post" id="form1" name="form1" LANGUAGE="javascript" onsubmit="return form1_Validate()">
+
+<div align="center"><center>
+<table border="0" cellpadding="2"><tr>
+  <td nowrap><font color="maroon" face="Arial Black" size="5"><strong>
+Generate Individual NPA Files</strong></font> 
+		</td>
+	</tr>
+</table>
+</center></div>
+
+<p>&nbsp;</p>
+
+<table align="center" border="0">
+	<tr>
+		<td align="right" nowrap>
+            <p><font face="Arial" Color="black" Size="3"><strong>Generate NPA file 
+            with Utilized CO Codes:</strong><br>
+            <em>(Please enter desired 
+NPA)</em></font>&nbsp;</p>
+		</td><td>
+            <INPUT id=txtNPAUtil name=txtNPAUtil LANGUAGE=javascript onchange="return txtNPAUtil_onchange()"> 
+		</td><td>
+<input type="submit" value="Submit" id="submit1" name="submit1"> 
+            
+		</td>
+	</tr>
+	<tr>
+		<td></td></TD>
+	</tr>
+    <TR>
+        <TD align=right noWrap><font face="Arial" Color="black" Size="3"><strong>Generate NPA file with Available CO Codes:</strong><br>
+		<em>(Please enter desired 
+            NPA)</em></font> 
+        <TD>
+            <INPUT id=txtNPAAvl name=txtNPAAvl LANGUAGE=javascript onchange="return txtNPAAvl_onchange()">
+        <TD>
+<input type="submit" value="Submit" id="submit2" name="submit2" >
+	<tr>
+		<td align="right" nowrap>
+            <!--METADATA TYPE="DesignerControl" startspan
+<OBJECT classid="clsid:B6FC3A14-F837-11D0-9CC8-006008058731" height=27 
+            id=btnGenNPAFilesMenu 
+            style="HEIGHT: 27px; LEFT: 10px; TOP: 34px; WIDTH: 80px" width=80>
+	<PARAM NAME="_ExtentX" VALUE="2117">
+	<PARAM NAME="_ExtentY" VALUE="714">
+	<PARAM NAME="id" VALUE="btnGenNPAFilesMenu">
+	<PARAM NAME="Caption" VALUE="RETURN">
+	<PARAM NAME="Image" VALUE="">
+	<PARAM NAME="AltText" VALUE="">
+	<PARAM NAME="Visible" VALUE="-1">
+	<PARAM NAME="Platform" VALUE="257">
+	<PARAM NAME="LocalPath" VALUE="../">
+	
+             </OBJECT>
+-->
+<script language="JavaScript" src="../_ScriptLibrary/EventMgr.HTM"></script>
+<script language="JavaScript" src="../_ScriptLibrary/Button.HTM"></script>
+<SCRIPT LANGUAGE=JavaScript>
+function _initbtnGenNPAFilesMenu()
+{
+	btnGenNPAFilesMenu.value = 'RETURN';
+	btnGenNPAFilesMenu.setStyle(0);
+}
+CreateButton('btnGenNPAFilesMenu', _initbtnGenNPAFilesMenu, null);
+</script>
+
+<!--METADATA TYPE="DesignerControl" endspan--> 
+		</td><td> 
+		</td>
+	</tr>
+</table>
+
+
+
+
+
+
+
+</form>
+<p>&nbsp;</p>
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+

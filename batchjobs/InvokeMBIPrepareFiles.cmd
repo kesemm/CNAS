@@ -1,0 +1,1 @@
+d:\cygwin\bin\bash.exe --login /cygdrive/d/cna/batchjobs/MBIPrepareFiles.bash

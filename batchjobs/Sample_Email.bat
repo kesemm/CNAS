@@ -1,0 +1,1 @@
+blat "Email Test File" -subject " Subject Goes Here" -attach "File Attachment" -to "e-amil" -cc "e-mail,e-mail"  -mailfrom "database@saiccanada.com" -from "database@saiccanada.com" -replyto "browng@saiccanada.com" -u "admin" -pw "&Keep@Bay" -server "192.168.10.151"

@@ -1,0 +1,1 @@
+blat "D:\CNA\internal\backup.txt" -subject "Successful Replication" -to "browng@saiccanada.com,cleggf@saiccanada.com,lessardn@saiccanada.com"  -cc "pilleyg@saiccanada.com"  -mailfrom "database@saiccanada.com" -from "database@saiccanada.com" -replyto "browng@saiccanada.com" -u "admin" -pw "&Keep@Bay" -server "192.168.10.151"

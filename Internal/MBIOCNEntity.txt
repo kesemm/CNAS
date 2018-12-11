@@ -1,0 +1,1 @@
+All OK with OCN/EntityID relationship for MBIs in the database. 

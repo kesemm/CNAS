@@ -1,0 +1,85 @@
+<%@ Language=VBScript %>
+<HTML><HEAD>
+<title>Processed Table</title>
+<%
+Response.Buffer = true
+Response.Expires=0
+%>
+<% ' VI 6.0 Scripting Object Model Enabled %>
+<!--#include file="../_ScriptLibrary/pm.asp"-->
+<% if StartPageProcessing() Then Response.End() %>
+<meta HTTPEQUIV="Pragma" CONTENT="no-cache"+>
+<meta NAME="GENERATOR" Content="Microsoft FrontPage 3.0">
+<script language="JavaScript">
+   function changeScreenSize()
+   {self.moveTo(10,10)
+	self.resizeTo(1200,900)}
+</script>
+<%
+
+
+UserEntityType=session("UserEntityType")
+
+
+ %>
+</HEAD>
+
+<body text="black" bgProperties="fixed" bgColor="#d7c7a4"  onload="changeScreenSize()">
+
+<form name="thisForm" METHOD="post">
+<!--#include file="xca_CNASLib.inc"-->
+</form>
+<p align="center"><strong>Number of&nbsp; Codes Processed by Period</strong></p>
+<p>  <br>
+</p>
+<p>  <br>
+</p>
+<table ALIGN="center" BORDER="1" CELLPADING="3" CELLSPACING="3" WIDTH="100%">
+<tr ALIGN="center">
+<th ALIGN="center">Period</th>
+<th ALIGN="center">Fiscal Year</th>
+<th ALIGN="center">Calendar Year</th>
+<th ALIGN="center">COCode Normal</th>
+<th ALIGN="center">COCode Updates</th>
+<th ALIGN="center">COCode Bulk A</th>
+<th ALIGN="center">COCode Bulk B</th>
+<th ALIGN="center">COCode Recovered</th>
+<th ALIGN="center">MBI Part1</th>
+<th ALIGN="center">MBI Recover</th>
+<th ALIGN="center">MBI Updates</th>
+</tr>
+<tr>
+<th ALIGN="center">&nbsp; </th>
+<th ALIGN="center"> &nbsp;</th>
+<th ALIGN="center"> &nbsp;</th>
+<th ALIGN="center">Min 325</th>
+<th ALIGN="center">Min 150</th>
+<th ALIGN="center">No Min</th>
+<th ALIGN="center">No Min</th>
+<th ALIGN="center">Min 20</th>
+<th ALIGN="center">Min 50</th>
+<th ALIGN="center">No Min</th>
+<th ALIGN="center">No Min</th>
+</tr>
+<tr>
+</tr>
+
+<%begindetail%>
+<tr>
+<td ALIGN="center" "no wrap"><%insert_data_here%></td>
+<td ALIGN="center"><%insert_data_here%></td>
+<td ALIGN="center"><%insert_data_here%></td>
+<td ALIGN="center"><%insert_data_here%></td>
+<td ALIGN="center"><%insert_data_here%></td>
+<td ALIGN="center"><%insert_data_here%></td>
+<td ALIGN="center"><%insert_data_here%></td>
+<td ALIGN="center"><%insert_data_here%></td>
+<td ALIGN="center"><%insert_data_here%></td>
+<td ALIGN="center"><%insert_data_here%></td>
+<td ALIGN="center"><%insert_data_here%></td>
+</tr>
+<%enddetail%>
+</table>
+<h5>
+<p>  <br></p></h5>
+</body></HTML>

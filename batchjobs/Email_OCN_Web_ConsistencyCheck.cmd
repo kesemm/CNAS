@@ -1,0 +1,1 @@
+blat "D:\CNA\internal\OCN_Web_ConsistencyCheck.txt" -subject "OCN/Public Web Consistency Check" -to "browng@saiccanada.com,walshkel@saiccanada.com" -mailfrom "database@saiccanada.com" -from "database@saiccanada.com" -replyto "null@saiccanada.com" -u "admin" -pw "&Keep@Bay" -server "192.168.10.151"

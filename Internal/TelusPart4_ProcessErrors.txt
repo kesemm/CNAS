@@ -1,0 +1,4 @@
+The attached CSV file contains all processing ERRORS from the Telus Part 4 importing job.
+
+
+Database machine

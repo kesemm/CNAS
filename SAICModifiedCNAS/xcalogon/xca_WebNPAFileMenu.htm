@@ -1,0 +1,146 @@
+<html>
+<head>
+<meta NAME="GENERATOR" Content="Microsoft Visual Studio 6.0">
+<title></title>
+<script ID="clientEventHandlersJS" LANGUAGE="javascript">
+<!--
+
+function txtNPAAvl_onchange() {
+//document.form1.txtNPAAvl.value = ""
+}
+
+function txtNPAUtil_onchange() {
+//document.form1.txtNPAUtil.value = ""
+}
+
+function form1_Validate() {
+var formObj = document.form1
+/*
+	document.write("valid");
+	if (form1.txtNPAAvl.value != "") { 
+		if (isNaN(txtNPAAvl.value)){ 
+			alert("The Center NPA field is not a number. Please type in a 3 digit value and submit again");
+            formObj.txtNPAAvl.focus();
+            return false;   
+		}
+	 /*  if ((formObj.txtNPAAvl.value <200 || formObj.txtNPAAvl.value>999)){
+					alert("You must enter a value between 200-999 in the Center NPA field. Please retype and submit again");
+					formObj.txtNPAAvl.focus();
+                return false;
+       }         
+     }          //xxxx
+      if (formObj.txtNPAUtil.value != "") { //npa nxx valid 
+		if (isNaN(formObj.txtNPAUtil.value)){ 
+			alert("The Center NPA field is not a number. Please type in a 3 digit value and submit again");
+            formObj.txtNPAUtil.focus();
+            return false;   
+		}
+	    if ((formObj.txtNPAUtil.value <200 || formObj.txtNPAUtil.value>999)){
+					alert("You must enter a value between 200-999 in the Center NPA field. Please retype and submit again");
+					formObj.txtNPAUtil.focus();
+               return false;          //dddddd
+		}            
+	   }*/
+}
+
+
+
+function btnReturntoMain_onclick() {
+location.replace ("xca_MenuC0CAdmin.asp");
+}
+
+//-->
+
+
+
+	
+
+
+
+</SCRIPT>
+</head>
+<body bgColor="#d7c7a4" bgProperties="fixed" text="black">
+<form action="xca_RptWebNPAFile22.asp" method="post" id="form1" name="form1" LANGUAGE="javascript" onsubmit="return form1_Validate()">
+
+<div align="center"><center>
+<table border="0" cellpadding="2"><tr>
+  <td nowrap><font face="Arial Black" color=maroon size="5"><strong>
+Generate NPA 
+            Files Menu</strong></font> 
+		</td>
+	</tr>
+</table>
+</center></div>
+
+<table align=center border=0 height=155 id=TABLE1 
+style="HEIGHT: 155px; WIDTH: 35%" >
+    
+    <tr>
+        <td><img height=36 src="../images/ball25.gif" 
+            width=35> </td>
+        <td><U><FONT color=#0000ff face=Arial><a 
+            href="xca_WebNPAFilePre.htm" target="">Generate Individual NPA 
+            Files</a></FONT></U></td></tr>
+    <tr>
+        <td><img height=36 src="../images/ball25.gif" 
+            width=35></td>
+        <td><font face=Arial><a 
+            href="xca_WebNPAFilePre2m.asp" target="">Generate All NPA Files</a></font></td></tr>
+    <tr>
+        <td></td>
+        <td>
+            <!--METADATA TYPE="DesignerControl" startspan
+<OBJECT classid="clsid:B6FC3A14-F837-11D0-9CC8-006008058731" height=27 
+            id=btnReturntoMain 
+            style="HEIGHT: 27px; LEFT: 0px; TOP: 0px; WIDTH: 61px" width=61>
+	<PARAM NAME="_ExtentX" VALUE="1614">
+	<PARAM NAME="_ExtentY" VALUE="714">
+	<PARAM NAME="id" VALUE="btnReturntoMain">
+	<PARAM NAME="Caption" VALUE="Return">
+	<PARAM NAME="Image" VALUE="">
+	<PARAM NAME="AltText" VALUE="">
+	<PARAM NAME="Visible" VALUE="-1">
+	<PARAM NAME="Platform" VALUE="257">
+	<PARAM NAME="LocalPath" VALUE="../">
+	
+             </OBJECT>
+-->
+<script language="JavaScript" src="../_ScriptLibrary/EventMgr.HTM"></script>
+<script language="JavaScript" src="../_ScriptLibrary/Button.HTM"></script>
+<SCRIPT LANGUAGE=JavaScript>
+function _initbtnReturntoMain()
+{
+	btnReturntoMain.value = 'Return';
+	btnReturntoMain.setStyle(0);
+}
+CreateButton('btnReturntoMain', _initbtnReturntoMain, null);
+</script>
+
+<!--METADATA TYPE="DesignerControl" endspan-->
+</td></tr>
+    
+    <p>&nbsp;</p></table>&nbsp; 
+
+
+
+
+
+
+
+</form>
+<p>&nbsp;</p>
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+

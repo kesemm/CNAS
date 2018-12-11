@@ -1,0 +1,8 @@
+ftp
+open 64.26.166.158
+saiccan
+Qu3en6
+binary
+lcd /SQLServer/MSSQL/BACKUP
+put counter.zip
+quit

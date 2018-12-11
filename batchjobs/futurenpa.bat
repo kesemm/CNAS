@@ -1,0 +1,1 @@
+blat "D:\CNA\internal\futurenpa.txt" -subject "Future NPA Check Check" -attach "D:\CNA\internal\futurenpa.csv" -to "browng@saiccanada.com" -mailfrom "database@saiccanada.com" -from "database@saiccanada.com" -replyto "browng@saiccanada.com" -u "admin" -pw "&Keep@Bay" -server "192.168.10.151"

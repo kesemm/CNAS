@@ -1,0 +1,1 @@
+blat "D:\CNA\internal\newcompany.txt" -subject "New Company Check" -attach "D:\CNA\internal\newcompany.csv" -to "browng@saiccanada.com" -mailfrom "database@saiccanada.com" -from "database@saiccanada.com" -replyto "browng@saiccanada.com" -u "admin" -pw "&Keep@Bay" -server "192.168.10.151"

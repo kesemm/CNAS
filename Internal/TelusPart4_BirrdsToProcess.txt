@@ -1,0 +1,4 @@
+The attached CSV file contains all entries imported as Telus Part 4s and should be processed in BIRRDS.
+
+
+Database machine

@@ -1,0 +1,46 @@
+﻿# WinSCP script to post ALL Data files (status pages) to cnac.ca and cnac2.ca
+
+option transfer auto
+
+
+# ##################################
+#      CNAC.CA (PRIMARY SITE)
+# ##################################
+
+open scp://cnac.ca:MKkmaDAH36TYLSm3@shell1c11.megawebservers.com/
+
+cd /public/data/
+lcd D:\CNA\PublicCodeData
+mput  COCodeStatus*.*
+mput ESRDCodeStatus*.*
+mput NonGeoCodeStatus*.*
+
+cd /public/mbi_protected/data/
+lcd D:\CNA\MBIData
+mput MBICodeStatus*.*
+
+close
+
+
+# ##################################
+#     CNAC2.CA (SECONDARY SITE)
+# ##################################
+
+open scp://cnac2.ca:tcvZr75JA6rFF7RY@shell1c11.megawebservers.com/
+
+cd /public/data/
+lcd D:\CNA\PublicCodeData
+mput  COCodeStatus*.*
+mput ESRDCodeStatus*.*
+mput NonGeoCodeStatus*.*
+
+cd /public/mbi_protected/data/
+lcd D:\CNA\MBIData
+mput MBICodeStatus*.*
+
+close
+
+
+
+exit
+

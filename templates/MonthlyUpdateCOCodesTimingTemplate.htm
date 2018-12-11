@@ -1,0 +1,61 @@
+<%@ Language=VBScript %>
+<%
+Response.Buffer = true
+Response.Expires=0
+%>
+<% ' VI 6.0 Scripting Object Model Enabled %>
+<!--#include file="../_ScriptLibrary/pm.asp"-->
+<% if StartPageProcessing() Then Response.End() %>
+<html>
+
+<head>
+<meta HTTP+EQUIV="Pragma" CONTENT="no-cache">
+<meta NAME="GENERATOR" Content="Microsoft FrontPage 3.0">
+<title>Processed Table</title>
+<%
+
+
+UserEntityType=session("UserEntityType")
+
+
+ %>
+</head>
+
+<body text="black" bgProperties="fixed" bgColor="#d7c7a4">
+
+<form name="thisForm" METHOD="post">
+<!--#include file="xca_CNASLib.inc"-->
+</form>
+<p align="center"><strong>Processing Timing For Update CO Codes Requests (in working days)</strong></p>
+<p align="center">(includes Misc and Bulk Codes) </p>
+<p>  <br>
+</p>
+<p>  <br>
+</p>
+<table ALIGN="CENTER" BORDER="1" CELLPADING="3" CELLSPACING="3" WIDTH="100%">
+<tr ALIGN="CENTER">
+<th ALIGN="CENTER">Month</th>
+<th ALIGN="CENTER">Year</th>
+<th ALIGN="CENTER">Min</th>
+<th ALIGN="CENTER">Max</th>
+<th ALIGN="CENTER">Avg</th>
+<th ALIGN="CENTER">STDEV</th>
+<th ALIGN="CENTER">Monthly Total</th>
+</tr>
+<tr>
+</tr>
+<%begindetail%>
+<tr>
+<td ALIGN="CENTER"><%insert_data_here%></td>
+<td ALIGN="CENTER"><%insert_data_here%></td>
+<td ALIGN="CENTER"><%insert_data_here%></td>
+<td ALIGN="CENTER"><%insert_data_here%></td>
+<td ALIGN="CENTER"><%insert_data_here%></td>
+<td ALIGN="CENTER"><%insert_data_here%></td>
+<td ALIGN="CENTER"><%insert_data_here%></td>
+</tr>
+<%enddetail%>
+</table>
+<h5>
+</body>
+</html>
